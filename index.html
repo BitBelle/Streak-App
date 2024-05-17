@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HABITS-APP</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/clock.png" alt="">
+        <div class="welcome-part">
+            <h2>Welcome to the ultimate Habit tracker</h2>
+            <p>Track your habit and take a step closer to breaking free from bad habits by bringing them to your
+                conscious mind everyday. Try not to judge yourself, simply act as an observer.</p>
+        </div>
+
+        <div class="habits">
+            <h2>State your habit</h2>
+            <input type="text" id="habit-text" placeholder="Enter your current habit">
+            <input type="date" id="date" name="event-date">
+            <button id="addBtn">Add Habit</button>
+            <button id="delBtn">Delete Habit</button>
+            <button id="editBtn">Edit Habit</button>
+
+        </div>
+
+        <!-- list of habits done away with -->
+        <div id="donehabits">
+            <h2>List of old habits</h2>
+            <ul id="old-habits-list">
+                <!--my Old to habits appear here -->
+            </ul>
+
+        </div>
+
+        <!-- no. of days since last habit -->
+        <div id="habit-stats">
+            
+            <p id="days-free">Days since last habit: <span id="days-count">0</span></p>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
