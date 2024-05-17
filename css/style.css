@@ -1,0 +1,106 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.welcome-part {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-part h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome-part p {
+    color: #666;
+    font-size: 16px;
+}
+
+.habits {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.habits h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(50% - 20px);
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#donehabits {
+    text-align: center;
+}
+
+#donehabits h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#old-habits-list {
+    list-style: none;
+}
+
+#old-habits-list li {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#old-habits-list li:last-child {
+    margin-bottom: 0;
+}
+
